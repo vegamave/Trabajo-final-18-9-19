@@ -11,13 +11,33 @@ var mostrado = false;
 var usuarioPermiteMensajes = true;
 if (!mostrado && usuarioPermiteMensajes) {
 	alert("ambas variables son verdaderas")
-var mensaje= "hola estoy dentro de un bucle";
-for (var i=0;i<5; i=++) {
+var mensaje = "Estoy dentro de un bucle For";
+for(var i=0;i<5;i++){
+	//verdadero
+	alert(mensaje);
 	
 }
 var dias= ["lunes","martes","miercoles","jueves","viernes","sabado","domingo"]
 for (var i=0; i<7; i++) {
 	alert(dias [i])
+}
+	
+}
+var dias = ["Lunes","Martes","Miercoles","Jueves","Viernes","Sabado","Domingo"];
+var q = dias.length;
+for(var i=0; i<q;i++){
+	alert(dias[i]);
+}
+//For para saber el factorial de un numero
+var numero = prompt("Introduce un numero y se mostrara su factorial");
+var resultado = 1;
+for (var i=1; i<=numero; i++){
+	resultado *= i;
+}
+alert(resultado);
+var dias = ["Lunes","Martes","Miercoles","Jueves","Viernes","Sabado","Domingo"];
+for(i in dias){
+	alert(dias[i]);
 }
 </script>
 </body>
